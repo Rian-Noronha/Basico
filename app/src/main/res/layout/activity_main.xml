@@ -29,8 +29,40 @@
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
         android:layout_marginTop="33dp"
-        android:text="Button"
+        android:text="@string/main_button_toast"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTexto"
-        tools:text="@string/main_button_toast" />
+        app:layout_constraintTop_toBottomOf="@+id/editTexto" />
+
+    <Button
+        android:id="@+id/buttonTela2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button_tela2"
+        app:layout_constraintStart_toStartOf="@id/buttonToast"
+        app:layout_constraintTop_toBottomOf="@id/buttonToast"></Button>
+
+    <Button
+        android:id="@+id/buttonParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/main_button_parcel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonTela2"></Button>
+
+    <Button
+        android:id="@+id/buttonSerializable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/main_button_serializable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonParcel"></Button>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
